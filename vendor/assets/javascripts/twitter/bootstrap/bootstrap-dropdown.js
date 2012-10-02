@@ -42,6 +42,7 @@
       var $this = $(this)
         , $parent
         , isActive
+        , $target = $(e.target)
 
       if ($this.is('.disabled, :disabled')) return
 
